@@ -1,2 +1,19 @@
 # Todo App
- Here’s a well-written description for your **To-Do App** GitHub repository:    ---  # **To-Do App** 📝🚀   A modern **To-Do App** built with **Node.js, Express, PostgreSQL, Prisma, and Docker**. This app allows users to create, update, and manage their daily tasks efficiently.    ## **Features** 🌟   ✅ **User Authentication** – Secure login & signup system   ✅ **Task Management** – Add, edit, delete, and mark tasks as completed   ✅ **PostgreSQL Database** – Structured storage for users and tasks   ✅ **Prisma ORM** – Simplifies database interactions   ✅ **Docker Support** – Easily deploy and run the app in a containerized environment   ✅ **RESTful API** – Well-structured endpoints for seamless integration    ## **Tech Stack** 🛠   - **Frontend:** (If applicable, mention React, Flutter, etc.)   - **Backend:** Node.js, Express.js   - **Database:** PostgreSQL, Prisma ORM   - **Containerization:** Docker, Docker Compose    ## **Getting Started** 🚀   ### **1. Clone the Repository**   ```sh git clone https://github.com/yourusername/todo-app.git cd todo-app ``` ### **2. Set Up Environment Variables**   Create a `.env` file and configure your database settings: ```env DATABASE_URL=postgresql://postgres:password@db:5432/todoapp JWT_SECRET=your_jwt_secret_here PORT=5000 ``` ### **3. Install Dependencies**   ```sh npm install ``` ### **4. Run the App with Docker**   ```sh docker compose up --build ``` ### **5. Migrate Database & Seed Data**   ```sh npx prisma migrate dev --name init npx prisma db seed ``` ### **6. Access the App**   - API: `http://localhost:5000`   - (If applicable) Frontend: `http://localhost:3000`    ## **API Endpoints** 🔗   | Method | Endpoint       | Description               | |--------|--------------|---------------------------| | `POST` | `/auth/signup` | Register a new user | | `POST` | `/auth/login`  | Authenticate user | | `GET`  | `/todos`       | Get all tasks | | `POST` | `/todos`       | Add a new task | | `PUT`  | `/todos/:id`   | Update a task | | `DELETE` | `/todos/:id` | Delete a task |  ## **Contributing** 🤝   Pull requests are welcome! Feel free to fork the repo and submit improvements.    ## **License** 📜   This project is licensed under [MIT License](LICENSE).   
+A modern To-Do App built with Node.js, Express, PostgreSQL, Prisma, and Docker. 
+
+This app allows users to create, update, and manage their daily tasks efficiently.  
+
+Features*🌟   
+✅ User Authentication – Secure login & signup system   
+✅ Task Management – Add, edit, delete, and mark tasks as completed   
+✅ PostgreSQL Database – Structured storage for users and tasks   
+✅ Prisma ORM – Simplifies database interactions   
+✅ Docker Support – Easily deploy and run the app in a containerized environment   
+✅ RESTful API – Well-structured endpoints for seamless integration    
+
+ **Tech Stack** 🛠  
+  - **Frontend:** (HTML, css, javascript,bootstrap, etc.)   
+  - **Backend:** Node.js, Express.js   
+  - **Database:** PostgreSQL, Prisma ORM 
+  -**Containerization:** Docker, Docker Compose  
+    
